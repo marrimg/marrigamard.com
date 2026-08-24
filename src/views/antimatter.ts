@@ -51,6 +51,7 @@ export default //html
               <img
                 src="https://marrigamard.com/antimatter-modules.webp"
                 class="w-full max-w-250"
+                loading="lazy"
               />
             </div>
           </div>
@@ -76,14 +77,19 @@ export default //html
               the global components consistent.
             </p>
             <div class="flex gap-4">
-              <img
-                src="https://marrigamard.com/antimatter-mood-board.webp"
-                class="w-full max-w-250"
-              />
-              <img
-                src="https://marrigamard.com/mood-board-competetors.webp"
-                class="w-full max-w-250"
-              />
+              <div class="flex-1 w-min-0">
+                <img
+                  src="https://marrigamard.com/antimatter-mood-board.webp"
+                  class="w-full object-cover"
+                  loading="lazy"
+                />
+                </div>
+                <div class="flex-1 w-min-0">
+                <img
+                  src="https://marrigamard.com/mood-board-competetors.webp"
+                  class="w-full object-cover"
+                />
+              </div>
             </div>
             <p class="mb-2 text-base leading-6">2. Style Guide</p>
             <p class="mb-2 text-base leading-6">
@@ -99,6 +105,7 @@ export default //html
             <img
               src="https://marrigamard.com/antimatter-style-guide.webp"
               class="w-full max-w-250"
+              loading="lazy"
             />
             <p class="mb-2 text-base leading-6">3. Product mockups</p>
             <p class="mb-2 text-base leading-6">
@@ -109,6 +116,7 @@ export default //html
             <img
               src="https://marrigamard.com/plugin-mockup.webp"
               class="w-full max-w-250"
+              loading="lazy"
             />
           </div>
           <div class="flex flex-col gap-4">
