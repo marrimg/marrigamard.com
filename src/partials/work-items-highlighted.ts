@@ -9,7 +9,7 @@ export default //html
     <div class="flex flex-col justify-center">
       <h4 class="mb-2 pb-2 font-heading text-text-header">Antimatter Audio</h4>
       <div class="group work-item-primary-details flex gap-4 pointer-events-none">
-        <a class="pointer-events-auto" href="./antimatter-details.html">
+        <a class="pointer-events-auto flex items-center" href="./antimatter-details.html">
           <div id="antimatter-details-link-logo" class="work-item-logo-container flex h-[75px] w-[75px] cursor-pointer items-center justify-center bg-section-bg p-4 transition-colors duration-[1.25s] hover:bg-antimatter-bg group-has-hover:bg-antimatter-bg">
             ${antimatterLogo}
           </div>
@@ -32,13 +32,13 @@ export default //html
       <h4 class="mb-2 pb-2 font-heading text-text-header">Freelance projects</h4>
 
       <div class="group work-item-primary-details flex gap-4">
-        <div class="work-item-logo-container flex h-[75px] w-[75px] cursor-pointer items-center justify-center bg-section-bg p-4">
+        <div class="work-item-logo-container flex h-[75px] w-[75px] cursor-pointer items-center justify-center bg-section-bg p-4 ">
           <a href="mailto:hello@marrigamard.com">
             ${freelanceLogo}
           </a>
         </div>
         <div>
-          <p class="mb-2 text-base leading-6 ">Let me help you bring your ideas to life!</p>
+          <p class="mb-2 text-base leading-6 pointer-events-none">Let me help you bring your ideas to life!</p>
           <p>
           <div class="inline-flex items-center gap-1">
             ${open}
