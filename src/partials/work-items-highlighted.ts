@@ -31,8 +31,8 @@ export default //html
     <div class="flex flex-col justify-center">
       <h4 class="mb-2 pb-2 font-heading text-text-header">Freelance projects</h4>
 
-      <div class="group work-item-primary-details flex gap-4">
-        <div class="work-item-logo-container flex h-[75px] w-[75px] cursor-pointer items-center justify-center bg-section-bg p-4 ">
+      <div class="group work-item-primary-details flex gap-4 pointer-events-none">
+        <div class="work-item-logo-container flex h-[75px] w-[75px] cursor-pointer items-center justify-center bg-section-bg p-4 pointer-events-auto">
           <a href="mailto:hello@marrigamard.com">
             ${freelanceLogo}
           </a>
@@ -42,7 +42,7 @@ export default //html
           <p>
           <div class="inline-flex items-center gap-1">
             ${open}
-            <a class="button-secondary-container flex items-center text-link-secondary no-underline transition-colors duration-[1.25s] hover:text-link-secondary-hover group-has-hover:text-link-secondary-hover" href="mailto:hello@marrigamard.com">Contact
+            <a class="button-secondary-container flex items-center text-link-secondary no-underline transition-colors duration-[1.25s] hover:text-link-secondary-hover group-has-hover:text-link-secondary-hover pointer-events-auto" href="mailto:hello@marrigamard.com">Contact
               me</a>
           </div>
           </p>
