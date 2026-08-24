@@ -5,9 +5,9 @@ import workItems from "./partials/work-items.ts";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = /*html*/ `
 <div class="bg-bg text-text flex flex-col items-center">
-  <div class="flex flex-col max-w-150">
+  <div class="flex flex-col max-w-200 p-24">
     <header >${header}</header>
-    <main>${workItemsHighlighted} ${workItems}</main>
+    <main class="flex flex-col gap-8">${workItemsHighlighted} ${workItems}</main>
   </div>
 </div>
 `;
