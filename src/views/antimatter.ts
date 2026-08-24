@@ -1,9 +1,9 @@
 import close from "../partials/svgs/close";
 export default //html
-`<div class="relative flex w-full flex-col items-center px-8">
+`<div class="relative flex w-full flex-col items-center px-8 text-text">
   <div class="absolute flex h-full w-full justify-center bg-bg">
     <div class="flex w-full max-w-250 p-8">
-      <a class="absolute right-4 top-4 h-4 w-4 text-link hover:text-text-callout" href="/" aria-label="Close project details">
+      <a class="absolute right-4 top-4 h-8 w-8   text-link hover:text-text-callout" href="/" aria-label="Close project details">
           ${close}
       </a>
       <div class="flex w-full flex-col gap-8 p-12">
@@ -49,7 +49,7 @@ export default //html
                 </p>
               </div>
               <img
-                src="https://marrigamard.com/antimatter-modules.png"
+                src="https://marrigamard.com/antimatter-modules.webp"
                 class="w-full max-w-250"
               />
             </div>
@@ -77,11 +77,11 @@ export default //html
             </p>
             <div class="flex gap-4">
               <img
-                src="https://marrigamard.com/antimatter-mood-board.png"
+                src="https://marrigamard.com/antimatter-mood-board.webp"
                 class="w-full max-w-250"
               />
               <img
-                src="https://marrigamard.com/mood-board-competetors.png"
+                src="https://marrigamard.com/mood-board-competetors.webp"
                 class="w-full max-w-250"
               />
             </div>
@@ -97,7 +97,7 @@ export default //html
               sections.
             </p>
             <img
-              src="https://marrigamard.com/antimatter-style-guide.png"
+              src="https://marrigamard.com/antimatter-style-guide.webp"
               class="w-full max-w-250"
             />
             <p class="mb-2 text-base leading-6">3. Product mockups</p>
@@ -107,7 +107,7 @@ export default //html
               central panel.
             </p>
             <img
-              src="https://marrigamard.com/plugin-mockup.png"
+              src="https://marrigamard.com/plugin-mockup.webp"
               class="w-full max-w-250"
             />
           </div>

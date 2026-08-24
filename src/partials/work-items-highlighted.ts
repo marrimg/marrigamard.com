@@ -10,7 +10,7 @@ export default //html
       <h4 class="mb-2 pb-2 font-heading text-text-header">Antimatter Audio</h4>
       <div class="group work-item-primary-details flex gap-4 pointer-events-none">
         <a class="pointer-events-auto flex items-center" href="./antimatter-details.html">
-          <div id="antimatter-details-link-logo" class="work-item-logo-container flex h-[75px] w-[75px] cursor-pointer items-center justify-center bg-section-bg p-4 transition-colors duration-[1.25s] hover:bg-antimatter-bg group-has-hover:bg-antimatter-bg">
+          <div id="antimatter-details-link-logo" class="work-item-logo-container flex h-[75px] w-[75px] cursor-pointer items-center justify-center bg-section-bg p-4 transition-colors duration-1000 hover:bg-antimatter-bg group-has-hover:bg-antimatter-bg">
             ${antimatterLogo}
           </div>
         </a>
@@ -20,7 +20,7 @@ export default //html
           <p>
           <div class="inline-flex items-center gap-1">
             ${open}
-            <a id="antimatter-details-link" class="pointer-events-auto button-secondary-container flex items-center text-link-secondary no-underline transition-colors duration-[1.25s] hover:text-link-secondary-hover group-has-hover:text-link-secondary-hover" href="./antimatter-details">Case
+            <a id="antimatter-details-link" class="pointer-events-auto button-secondary-container flex items-center text-link-secondary no-underline transition-colors duration-1000 hover:text-link-secondary-hover group-has-hover:text-link-secondary-hover" href="./antimatter-details">Case
               study</a>
           </div>
           </p>
@@ -42,7 +42,7 @@ export default //html
           <p>
           <div class="inline-flex items-center gap-1">
             ${open}
-            <a class="button-secondary-container flex items-center text-link-secondary no-underline transition-colors duration-[1.25s] hover:text-link-secondary-hover group-has-hover:text-link-secondary-hover pointer-events-auto" href="mailto:hello@marrigamard.com">Contact
+            <a class="button-secondary-container flex items-center text-link-secondary no-underline transition-colors duration-1000 hover:text-link-secondary-hover group-has-hover:text-link-secondary-hover pointer-events-auto" href="mailto:hello@marrigamard.com">Contact
               me</a>
           </div>
           </p>
