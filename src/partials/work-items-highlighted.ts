@@ -20,7 +20,7 @@ export default //html
           <p>
           <div class="inline-flex items-center gap-1">
             ${open}
-            <a id="antimatter-details-link" class="pointer-events-auto button-secondary-container flex items-center text-link-secondary no-underline transition-colors duration-[1.25s] hover:text-link-secondary-hover group-has-hover:text-link-secondary-hover" href="./antimatter-details.html">Case
+            <a id="antimatter-details-link" class="pointer-events-auto button-secondary-container flex items-center text-link-secondary no-underline transition-colors duration-[1.25s] hover:text-link-secondary-hover group-has-hover:text-link-secondary-hover" href="./antimatter-details">Case
               study</a>
           </div>
           </p>

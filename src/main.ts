@@ -1,13 +1,27 @@
 import "./style.css";
-import header from "./partials/header.ts";
-import workItemsHighlighted from "./partials/work-items-highlighted.ts";
-import workItems from "./partials/work-items.ts";
+import home from "./views/home";
+import antimatter from "./views/antimatter";
+import { PopoverRouter } from "./router";
 
-document.querySelector<HTMLDivElement>("#app")!.innerHTML = /*html*/ `
-<div class="flex min-h-screen flex-col items-center">
-  <div class="flex w-full max-w-160 flex-col gap-2 px-8 py-24">
-    <header class="pb-4">${header}</header>
-    <main class="flex flex-col gap-8">${workItemsHighlighted} ${workItems}</main>
-  </div>
-</div>
-`;
+const router = new PopoverRouter("app", "modal-popover");
+
+router.addRoute("/", () => {
+  document.getElementById("app")!.innerHTML = /*html*/ `
+    <div class="flex min-h-screen flex-col items-center">
+      ${home}
+    </div>
+  `;
+  router.closePopover();
+});
+
+router.addRoute("/antimatter-details", () => {
+  // document.getElementById("app")!.innerHTML = "<h1>Main Dashboard</h1>";
+  router.openPopover(`
+      ${antimatter}
+  `);
+});
+
+// Initialize on load
+router.resolveRoute();
+
+document.querySelector<HTMLDivElement>("#app")!.innerHTML;

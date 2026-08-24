@@ -1,9 +1,10 @@
+import close from "../partials/svgs/close";
 export default //html
 `<div class="relative flex w-full flex-col items-center px-8">
   <div class="absolute flex h-full w-full justify-center bg-bg">
     <div class="flex w-full max-w-250 p-8">
-      <a class="absolute right-4 top-4 h-4 w-4 text-link hover:text-text-callout" href="./index.html" aria-label="Close project details">
-        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-full w-full"><path d="M6.75827 17.2426L12.0009 12M17.2435 6.75736L12.0009 12M12.0009 12L6.75827 6.75736M12.0009 12L17.2435 17.2426" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg>
+      <a class="absolute right-4 top-4 h-4 w-4 text-link hover:text-text-callout" href="/" aria-label="Close project details">
+          ${close}
       </a>
       <div class="flex w-full flex-col gap-8 p-12">
         <header>
