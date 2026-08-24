@@ -1,0 +1,21 @@
+{
+  "name": "marrigamard",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.2",
+    "vite": "^8.2.0",
+    "vite-plugin-html-inject": "^1.1.2"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "navigo": "^8.11.1",
+    "tailwindcss": "^4.3.3"
+  }
+}
