@@ -1,7 +1,7 @@
 export default //html
 `<header>
   <h1 class="mb-2 font-heading text-[2.125rem] text-text-header">Marri Gamard</h1>
-  <h2 class="mb-8 font-heading text-xl text-text-callout">UX Designer & Front End Software Engineer</h2>
+  <h2 class="mb-8 font-heading text-xl text-text-callout">UX Designer & Front End Engineer</h2>
   <p class="mb-6 text-base leading-6">
     I craft design systems and interfaces that put human experience at the
     center, making complex information clear and intuitive.
