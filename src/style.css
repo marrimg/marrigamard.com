@@ -3,13 +3,14 @@
 @theme {
   --font-body: "PP Neue Montreal Book", sans-serif;
   --font-heading: "PP Neue Montreal Medium", sans-serif;
-  --color-bg: #0b1d41;
+  --color-bg: #0a1a3a;
   --color-section-bg: #0b2352;
-  --color-text-callout: #8c40ff;
-  --color-link: #806ded;
+  --color-overlay: #fff;
+  --color-text-callout: #9753ff;
+  --color-link: #8d7cef;
   --color-link-hover: #6149e9;
-  --color-link-secondary: #5181e1;
-  --color-link-secondary-hover: #8c40ff;
+  --color-link-secondary: #628ee4;
+  --color-link-secondary-hover: #9753ff;
   --color-text: #acacd0;
   --color-text-header: #acacd0;
   --color-antimatter-brand: #932eb8;
@@ -20,40 +21,52 @@
   font-family: "PP Neue Montreal Book";
   font-style: normal;
   font-weight: normal;
-  src: local("PP Neue Montreal Book"), url("./assets/fonts/ppneuemontreal-book.woff") format("woff");
+  src:
+    local("PP Neue Montreal Book"),
+    url("./assets/fonts/ppneuemontreal-book.woff") format("woff");
 }
 
 @font-face {
   font-family: "PP Neue Montreal Italic";
   font-style: normal;
   font-weight: normal;
-  src: local("PP Neue Montreal Italic"), url("./assets/fonts/ppneuemontreal-italic.woff") format("woff");
+  src:
+    local("PP Neue Montreal Italic"),
+    url("./assets/fonts/ppneuemontreal-italic.woff") format("woff");
 }
 
 @font-face {
   font-family: "PP Neue Montreal Thin";
   font-style: normal;
   font-weight: normal;
-  src: local("PP Neue Montreal Thin"), url("./assets/fonts/ppneuemontreal-thin.woff") format("woff");
+  src:
+    local("PP Neue Montreal Thin"),
+    url("./assets/fonts/ppneuemontreal-thin.woff") format("woff");
 }
 
 @font-face {
   font-family: "PP Neue Montreal Medium";
   font-style: normal;
   font-weight: normal;
-  src: local("PP Neue Montreal Medium"), url("./assets/fonts/ppneuemontreal-medium.woff") format("woff");
+  src:
+    local("PP Neue Montreal Medium"),
+    url("./assets/fonts/ppneuemontreal-medium.woff") format("woff");
 }
 
 @font-face {
   font-family: "PP Neue Montreal SemiBold italic";
   font-style: normal;
   font-weight: normal;
-  src: local("PP Neue Montreal SemiBold italic"), url("./assets/fonts/ppneuemontreal-semibolditalic.woff") format("woff");
+  src:
+    local("PP Neue Montreal SemiBold italic"),
+    url("./assets/fonts/ppneuemontreal-semibolditalic.woff") format("woff");
 }
 
 @font-face {
   font-family: "PP Neue Montreal Bold";
   font-style: normal;
   font-weight: normal;
-  src: local("PP Neue Montreal Bold"), url("./assets/fonts/ppneuemontreal-bold.woff") format("woff");
+  src:
+    local("PP Neue Montreal Bold"),
+    url("./assets/fonts/ppneuemontreal-bold.woff") format("woff");
 }

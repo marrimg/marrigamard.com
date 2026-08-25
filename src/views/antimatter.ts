@@ -1,18 +1,19 @@
 import close from "../partials/svgs/close";
 export default //html
-`<div class="relative flex w-full flex-col items-center px-8 text-text">
-  <div class="absolute flex h-full w-full justify-center bg-bg">
+`<div class="relative flex w-full h-full flex-col items-end justify-end transition-[opacity,display] duration-300 ease-out transition-discrete
+         popover-open:opacity-100 starting:opacity-0">
+  <div class="absolute flex h-full w-full lg:max-w-350 justify-center bg-overlay overflow-scroll">
     <div class="flex w-full max-w-250 p-8">
-      <a class="absolute right-4 top-4 h-8 w-8   text-link hover:text-text-callout" href="/" aria-label="Close project details">
+      <a class="absolute right-4 top-4 h-8 w-8  text-link hover:text-text-callout" href="/" aria-label="Close project details">
           ${close}
       </a>
       <div class="flex w-full flex-col gap-8 p-12">
         <header>
-          <h1 class="mb-2 font-heading text-[2.125rem] text-text-header">Antimatter Audio</h1>
+          <h1 class="mb-2 font-heading text-[2.125rem]">Antimatter Audio</h1>
         </header>
         <main>
           <div class="flex flex-col gap-4">
-            <h2 class="mb-2 font-heading text-xl text-text-header">Project Summary</h2>
+            <h2 class="mb-2 font-heading text-xl">Project Summary</h2>
             <p class="mb-2 text-base leading-6">
               Antimatter Audio is an independent audio engineering company that
               wanted to pivot from building hardware synthesizers to producing
@@ -22,7 +23,7 @@ export default //html
             </p>
           </div>
           <div class="flex flex-col gap-4">
-            <h2 class="mb-2 font-heading text-xl text-text-header">Design goals</h2>
+            <h2 class="mb-2 font-heading text-xl">Design goals</h2>
             <div class="flex flex-col gap-4">
               <div>
                 <p class="mb-2 text-base leading-6">
@@ -37,7 +38,7 @@ export default //html
             </div>
           </div>
           <div class="flex flex-col gap-4">
-            <h2 class="mb-2 font-heading text-xl text-text-header">Starting point</h2>
+            <h2 class="mb-2 font-heading text-xl">Starting point</h2>
             <div class="flex flex-col gap-4">
               <div>
                 <p class="mb-2 text-base leading-6">
@@ -56,7 +57,7 @@ export default //html
             </div>
           </div>
           <div class="flex flex-col gap-4">
-            <h2 class="mb-2 font-heading text-xl text-text-header">Design process</h2>
+            <h2 class="mb-2 font-heading text-xl">Design process</h2>
             <p class="mb-2 text-base leading-6">1. Discovery</p>
             <p class="mb-2 text-base leading-6">
               The design process began with a deep dive into Antimatter's
@@ -120,7 +121,7 @@ export default //html
             />
           </div>
           <div class="flex flex-col gap-4">
-            <h2 class="mb-2 font-heading text-xl text-text-header">Takeaway</h2>
+            <h2 class="mb-2 font-heading text-xl">Takeaway</h2>
             <p class="mb-2 text-base leading-6">
               Every detail of the Antimatter Audio rebrand and plugin design was
               designed to build user trust and spark creativity. From the sleek,
