@@ -2,7 +2,7 @@ import close from "../partials/svgs/close";
 export default //html
 `<div class="relative flex w-full h-full flex-col items-end justify-end transition-[opacity,display] duration-300 ease-out transition-discrete
          popover-open:opacity-100 starting:opacity-0">
-  <div class="absolute flex h-full w-full lg:max-w-350 justify-center bg-overlay overflow-scroll">
+  <div class="absolute flex h-full w-full md:max-w-350 justify-center bg-overlay overflow-scroll">
     <div class="flex w-full max-w-250 p-8">
       <a class="absolute right-4 top-4 h-8 w-8  text-link hover:text-text-callout" href="/" aria-label="Close project details">
           ${close}
@@ -11,8 +11,8 @@ export default //html
         <header>
           <h1 class="mb-2 font-heading text-[2.125rem]">Antimatter Audio</h1>
         </header>
-        <main>
-          <div class="flex flex-col gap-4">
+        <main class="flex flex-col gap-5">
+          <div class="flex flex-col gap-1">
             <h2 class="mb-2 font-heading text-xl">Project Summary</h2>
             <p class="mb-2 text-base leading-6">
               Antimatter Audio is an independent audio engineering company that
@@ -22,9 +22,9 @@ export default //html
               and product concepts to ensure a successful direction shift.
             </p>
           </div>
-          <div class="flex flex-col gap-4">
+          <div class="flex flex-col gap-1">
             <h2 class="mb-2 font-heading text-xl">Design goals</h2>
-            <div class="flex flex-col gap-4">
+            <div class="flex flex-col gap-1">
               <div>
                 <p class="mb-2 text-base leading-6">
                   Antimatter Audio wants to create audio plugins that spark
@@ -37,9 +37,9 @@ export default //html
               </div>
             </div>
           </div>
-          <div class="flex flex-col gap-4">
+          <div class="flex flex-col gap-1">
             <h2 class="mb-2 font-heading text-xl">Starting point</h2>
-            <div class="flex flex-col gap-4">
+            <div class="flex flex-col gap-1">
               <div>
                 <p class="mb-2 text-base leading-6">
                   As a starting point, I researched Antimatter Audio's current
@@ -56,28 +56,30 @@ export default //html
               />
             </div>
           </div>
-          <div class="flex flex-col gap-4">
+          <div class="flex flex-col gap-6">
             <h2 class="mb-2 font-heading text-xl">Design process</h2>
-            <p class="mb-2 text-base leading-6">1. Discovery</p>
-            <p class="mb-2 text-base leading-6">
-              The design process began with a deep dive into Antimatter's
-              current and desired customer base, and other audio plugins' visual
-              style and behavior.
-            </p>
-            <p class="mb-2 text-base leading-6">
-              The plugin concept included two design directions: a distinctive,
-              unique experience for its main central panel, and a sleek, branded
-              design for the global header and footer components that would
-              carry over to other plugins in the future.
-            </p>
-            <p class="mb-2 text-base leading-6">
-              We settled on a retro-futuristic, sci-fi inspired design for the
-              central panel, and a clean, modern dark theme for the global
-              header and footer components. In the future, we can switch up the
-              design for the central panel from plugin to plugin while keeping
-              the global components consistent.
-            </p>
-            <div class="flex gap-4">
+            <div>
+              <h3 class="mb-2 text-base leading-6 font-heading">1. Discovery</h3>
+              <p class="mb-2 text-base leading-6">
+                The design process began with a deep dive into Antimatter's
+                current and desired customer base, and other audio plugins' visual
+                style and behavior.
+              </p>
+              <p class="mb-2 text-base leading-6">
+                The plugin concept included two design directions: a distinctive,
+                unique experience for its main central panel, and a sleek, branded
+                design for the global header and footer components that would
+                carry over to other plugins in the future.
+              </p>
+              <p class="mb-2 text-base leading-6">
+                We settled on a retro-futuristic, sci-fi inspired design for the
+                central panel, and a clean, modern dark theme for the global
+                header and footer components. In the future, we can switch up the
+                design for the central panel from plugin to plugin while keeping
+                the global components consistent.
+              </p>
+            </div>
+            <div class="flex gap-1">
               <div class="flex-1 w-min-0">
                 <img
                   src="https://marrigamard.com/antimatter-mood-board.webp"
@@ -92,35 +94,39 @@ export default //html
                 />
               </div>
             </div>
-            <p class="mb-2 text-base leading-6">2. Style Guide</p>
-            <p class="mb-2 text-base leading-6">
-              Based on this discovery process, I created a style guide for the
-              brand. I decided on ALTE DIN 1451 for the brand's typeface to
-              evoke the boxy, geometric feel of text on an old greenscreen CRT
-              monitor while remaining highly legible and unobtrusive. Inspired
-              by vintage green and amber CRT monitors, I chose a bold green and
-              amber theme for the central panel. I went with a more
-              modern-looking dark grey and magenta theme for the main brand
-              sections.
-            </p>
-            <img
-              src="https://marrigamard.com/antimatter-style-guide.webp"
-              class="w-full max-w-250"
-              loading="lazy"
-            />
-            <p class="mb-2 text-base leading-6">3. Product mockups</p>
-            <p class="mb-2 text-base leading-6">
-              Finally, I created mockups of the plugin that included both the
-              global header and footer sections and the retro sci-fi inspired
-              central panel.
-            </p>
-            <img
-              src="https://marrigamard.com/plugin-mockup.webp"
-              class="w-full max-w-250"
-              loading="lazy"
-            />
+            <div>
+              <h3 class="mb-2 text-base leading-6 font-heading">2. Style Guide</h3>
+              <p class="mb-2 text-base leading-6">
+                Based on this discovery process, I created a style guide for the
+                brand. I decided on ALTE DIN 1451 for the brand's typeface to
+                evoke the boxy, geometric feel of text on an old greenscreen CRT
+                monitor while remaining highly legible and unobtrusive. Inspired
+                by vintage green and amber CRT monitors, I chose a bold green and
+                amber theme for the central panel. I went with a more
+                modern-looking dark grey and magenta theme for the main brand
+                sections.
+              </p>
+              <img
+                src="https://marrigamard.com/antimatter-style-guide.webp"
+                class="w-full max-w-250"
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <h3 class="mb-2 text-base leading-6 font-heading">3. Product mockups</h3>
+              <p class="mb-2 text-base leading-6">
+                Finally, I created mockups of the plugin that included both the
+                global header and footer sections and the retro sci-fi inspired
+                central panel.
+              </p>
+              <img
+                src="https://marrigamard.com/plugin-mockup.webp"
+                class="w-full max-w-250"
+                loading="lazy"
+              />
           </div>
-          <div class="flex flex-col gap-4">
+          </div>
+          <div class="flex flex-col gap-1">
             <h2 class="mb-2 font-heading text-xl">Takeaway</h2>
             <p class="mb-2 text-base leading-6">
               Every detail of the Antimatter Audio rebrand and plugin design was
