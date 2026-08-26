@@ -3,9 +3,9 @@ export default //html
   <h3 class="mb-2 font-heading text-2xl text-text-header ">Past work</h3>
   <div class="flex flex-col gap-6 text-base/7">
     <div class="border-b border-border pb-6 grid grid-cols-12 gap-4 items-center">
-      <div class="col-start-1 col-end-3 text-link-secondary">2021-2024</div>
-      <div class="col-start-3 col-end-13 font-heading text-text-header">New Relic</div>
-      <div class="col-start-3 col-end-13">
+      <div class="col-start-1 col-span-12 md:col-span-2 text-link-secondary">2021-2024</div>
+      <div class="md:col-start-3 col-span-12 md:col-span-10 font-heading text-text-header">New Relic</div>
+      <div class="md:col-start-3 col-span-12 md:col-span-10">
         <ul class="flex flex-col gap-2">
           <li class="mb-2">
             Led the front end development process for integral features in New
@@ -21,9 +21,9 @@ export default //html
       </div>
     </div>
     <div class="border-b border-border pb-6 grid grid-cols-12 gap-4 items-center">
-      <div class="col-start-1 col-end-3 text-link-secondary">2019-2021</div>
-      <div class="col-start-3 col-end-13 font-heading text-text-header">Simple</div>
-      <div class="col-start-3 col-end-13">
+      <div class="col-start-1 col-span-12 md:col-span-2 text-link-secondary">2019-2021</div>
+      <div class="md:col-start-3 col-span-12 md:col-span-10 font-heading text-text-header">Simple</div>
+      <div class="md:col-start-3 col-span-12 md:col-span-10 ">
         <ul  class="flex flex-col gap-2">
           <li class="mb-2">
             Planned and implemented a UI redesign that led to a 7% increase in new
@@ -38,9 +38,9 @@ export default //html
       </div>
     </div>
     <div class="border-b border-border pb-6 grid grid-cols-12 gap-4 items-center">
-      <div class="col-start-1 col-end-3 text-link-secondary">2019-2019</div>
-      <div class="col-start-3 col-end-13 font-heading text-text-header">Nike</div>
-      <div class="col-start-3 col-end-13">
+      <div class="col-start-1 col-span-12 md:col-span-2 text-link-secondary">2019-2019</div>
+      <div class="md:col-start-3 col-span-12 md:col-span-10 font-heading text-text-header">Nike</div>
+      <div class="md:col-start-3 col-span-12 md:col-span-10">
         <ul  class="flex flex-col gap-2">
           <li class="mb-2">
             Collaborated with a team of full stack developers to implement new
@@ -51,9 +51,9 @@ export default //html
       </div>
     </div>
     <div class="border-b border-border pb-6 grid grid-cols-12 gap-4 items-center">
-      <div class="col-start-1 col-end-3 text-link-secondary">2016-2019</div>
-      <div class="col-start-3 col-end-13 font-heading text-text-header">Metal Toad</div>
-      <div class="col-start-3 col-end-13">
+      <div class="col-start-1 col-span-12 md:col-span-2 text-link-secondary">2016-2019</div>
+      <div class="md:col-start-3 col-span-12 md:col-span-10 font-heading text-text-header">Metal Toad</div>
+      <div class="md:col-start-3 col-span-12 md:col-span-10">
         <ul  class="flex flex-col gap-2">
           <li class="mb-2">
             Helped lead and implement a successful refactor effort to create a
@@ -64,9 +64,9 @@ export default //html
       </div>
     </div>
     <div class="border-b border-border pb-6 grid grid-cols-12 gap-4 items-center">
-      <div class="col-start-1 col-end-3 text-link-secondary">2015-2016</div>
-      <div class="col-start-3 col-end-13 font-heading text-text-header">DAT Solutions</div>
-      <div class="col-start-3 col-end-13">
+      <div class="col-start-1 col-span-12 md:col-span-2 text-link-secondary">2015-2016</div>
+      <div class="md:col-start-3 col-span-12 md:col-span-10 font-heading text-text-header">DAT Solutions</div>
+      <div class="md:col-start-3 col-span-12 md:col-span-10">
         <ul  class="flex flex-col gap-2">
           <li class="mb-2">
             Worked with the design and development teams to plan and design a
@@ -76,10 +76,10 @@ export default //html
         </ul>
       </div>
     </div>
-    <div class=" border-border pb-6 grid grid-cols-12 gap-4 items-center">
-      <div class="col-start-1 col-end-3 text-link-secondary">2012-2015</div>
-      <div class="col-start-3 col-end-13 font-heading text-text-header">Postano</div>
-      <div class="col-start-3 col-end-13">
+    <div class="border-b border-border pb-6 grid grid-cols-12 gap-4 items-center">
+      <div class="col-start-1 col-span-12 md:col-span-2 text-link-secondary">2012-2015</div>
+      <div class="md:col-start-3 col-span-12 md:col-span-10 font-heading text-text-header">Postano</div>
+      <div class="md:col-start-3 col-span-12 md:col-span-10">
         <ul  class="flex flex-col gap-2">
           <li class="mb-2">
             Created custom social media event displays using the AngularJS
