@@ -5,25 +5,27 @@ export default /* HTML */ `<div
          popover-open:opacity-100 starting:opacity-0"
 >
   <div
-    class="absolute flex h-full w-full justify-center  bg-overlay text-text-popover overflow-scroll"
+    class="absolute h-full w-full justify-center  bg-overlay text-text-popover overflow-scroll grid grid-cols-12 pt-12"
   >
-    <div class="flex max-w-320">
-      <a
-        class="absolute right-4 top-4 h-8 w-8  text-text-popover hover:text-text-callout"
-        href="/"
-        aria-label="Close project details"
-      >
-        ${close}
-      </a>
-      <div class="flex w-full flex-col gap-8 p-12">
+    <a
+      class="top-4 sticky h-8 w-8  text-text-popover hover:text-text-callout col-start-11 col-span-1"
+      href="/"
+      aria-label="Close project details"
+    >
+      ${close}
+    </a>
+    <div class="flex max-w-320 col-start-2 col-end-11">
+      <div class="flex w-full flex-col gap-8 pr-12 pl-12 pb-12">
         <header>
           <h1 class="mb-2 font-heading-main text-[3.125rem]">
             Antimatter Audio
           </h1>
         </header>
         <main class="flex flex-col pb-20">
-          <div class="grid w-full grid-cols-12 gap-6">
-            <div class="col-start-1 col-end-4 flex flex-col gap-1">
+          <div class="grid w-full grid-cols-12 gap-6 relative">
+            <div
+              class="col-start-1 col-end-4 flex flex-col gap-1 sticky top-0 z-10"
+            >
               <a href="" class="text-2xl font-heading-main">Summary</a>
               <a href="#design-direction" class="text-2xl font-heading-main"
                 >Design Direction</a
