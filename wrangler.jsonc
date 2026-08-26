@@ -1,9 +1,11 @@
 {
   "name": "marrigamard-com",
   "compatibility_date": "2026-08-21",
-  "main": "./index.js",
   "assets": {
-    "directory": "./"
+    "directory": "./dist",
+     "binding": "ASSETS",
+         // Redirects all non-file requests to index.html for SPA routing
+    "not_found_handling": "single-page-application" 
   },
   "r2_buckets": [
     {
