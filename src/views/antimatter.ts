@@ -22,9 +22,11 @@ export default /* HTML */ `<div
           </h1>
         </header>
         <main class="flex flex-col pb-20">
-          <div class="grid w-full grid-cols-12 gap-6 relative">
+          <div
+            class="grid w-full grid-cols-1 gap-6 relative md:grid-cols-12 sm:grid-cols-1"
+          >
             <div
-              class="col-start-1 col-end-4 flex flex-col gap-1 sticky top-0 z-10"
+              class="col-start-1 col-span-1 md:col-span-3 flex flex-col gap-1 md:sticky top-0 z-10"
             >
               <a
                 href=""
@@ -57,7 +59,9 @@ export default /* HTML */ `<div
                 >Takeaways</a
               >
             </div>
-            <div class="col-start-4 col-end-12 flex flex-col gap-6">
+            <div
+              class="col-start-1 md:col-start-4 col-end-12 flex flex-col gap-6"
+            >
               <p class="mb-4 text-3xl">
                 Antimatter Audio is an independent audio engineering company
                 that wanted to pivot from building hardware synthesizers to
@@ -135,7 +139,7 @@ export default /* HTML */ `<div
               </div>
               <h3 class="mb-2 font-heading text-xl">Style Guide</h3>
               <div class="grid grid-cols-12 gap-6">
-                <p class="mb-2 col-start-1 col-end-6">
+                <p class="mb-2 col-start-1 col-span-12 lg:col-span-6">
                   Based on this discovery process, I created a style guide for
                   the brand. I decided on ALTE DIN 1451 for the brand's typeface
                   to evoke the boxy, geometric feel of text on an old
@@ -145,11 +149,14 @@ export default /* HTML */ `<div
                   went with a more modern-looking dark grey and magenta theme
                   for the main brand sections.
                 </p>
-                <img
-                  src="https://marrigamard.com/antimatter-style-guide.webp"
-                  class="w-full max-w-250 col-start-6 col-end-12"
-                  loading="lazy"
-                />
+                <div
+                  class="col-span-12 col-start-1 lg:col-start-7 lg:col-span-6"
+                >
+                  <img
+                    src="https://marrigamard.com/antimatter-style-guide.webp"
+                    loading="lazy"
+                  />
+                </div>
               </div>
 
               <h3 id="product-mockups" class="mb-2 font-heading text-xl">
