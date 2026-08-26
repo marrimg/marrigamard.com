@@ -63,20 +63,19 @@ export default /* HTML */ `<div
               class="col-start-1 md:col-start-4 col-end-12 flex flex-col gap-6"
             >
               <p class="mb-4 text-3xl">
-                Antimatter Audio is an independent audio engineering company
-                that wanted to pivot from building hardware synthesizers to
-                producing high-quality plugins for Digital Audio Workstation
-                software. Working with the founder, I helped craft their new
-                brand identity and product concepts to ensure a successful
-                direction shift.
+                Antimatter Audio is an independent audio engineering company who
+                is pivoting from building hardware synthesizers to producing
+                high-quality plugins for Digital Audio Workstations. Working
+                with the founder, I helped craft their brand identity and
+                product concepts to ensure a successful direction shift.
               </p>
               <div>
                 <h3 id="design-direction" class="mb-2 font-heading text-xl">
                   Design Direction
                 </h3>
                 <p class="mb-2">
-                  Antimatter Audio wants to create audio plugins that spark
-                  users' creativity and sense of experimentation. They want to
+                  Antimatter Audio wanted to create audio plugins that spark
+                  users' creativity and sense of experimentation. They wanted to
                   give users a curated set of options that still feel expansive
                   to play with. Finally, they wanted to create a framework for
                   the design of their first plugin that they could carry on into
@@ -94,19 +93,18 @@ export default /* HTML */ `<div
                     loading="lazy"
                   />
                   <p class="mb-2">
-                    I researched Antimatter Audio's current hardware products.
-                    They have a devoted following of customers who have been
-                    long-time fans of their products. I did a deep dive into
-                    what their customers enjoy about their current offerings as
-                    a foundation for designing their new direction.
+                    I researched Antimatter Audio's current hardware products
+                    and found that they have a devoted following of customers
+                    who have been long-time fans of their products. I did a deep
+                    dive into what their customers enjoy about their current
+                    offerings as a foundation for designing their new direction.
                   </p>
                 </div>
               </div>
-              <div class="col-start-6 col-end-12">
-                <h3 id="discovery" class="mb-2 font-heading text-xl">
-                  Discovery
-                </h3>
-
+              <h3 id="discovery" class="mb-2 font-heading text-xl">
+                Discovery
+              </h3>
+              <div class="col-start-6 col-end-12 space-y-4">
                 <div class="grid grid-cols-2 gap-2 col-span-12 pb-4">
                   <img
                     src="https://marrigamard.com/antimatter-mood-board.webp"
@@ -118,16 +116,16 @@ export default /* HTML */ `<div
                   />
                 </div>
                 <p>
-                  The design process began with a deep dive into Antimatter's
-                  current and desired customer base, and other audio plugins'
-                  visual style and behavior.
+                  The design process began with a discovery phase of testing out
+                  other audio plugins and making notes of their visual style and
+                  behavior.
                 </p>
                 <p>
-                  The plugin concept included two design directions: a
-                  distinctive, unique experience for its main central panel, and
-                  a sleek, branded design for the global header and footer
-                  components that would carry over to other plugins in the
-                  future.
+                  After extensive research, I decided that the mockup needed to
+                  include two individual design styles: a distinctive, unique
+                  experience for its main central panel, and a sleek, branded
+                  design for the global header and footer components that would
+                  carry over to other plugins in the future.
                 </p>
                 <p>
                   We settled on a retro-futuristic, sci-fi inspired design for
@@ -177,11 +175,11 @@ export default /* HTML */ `<div
                 Takeaways
               </h2>
               <p class="mb-2">
-                Every detail of the Antimatter Audio rebrand and plugin design
-                was designed to build user trust and spark creativity. From the
-                sleek, orderly header and footer areas to the bold, experimental
-                central panel, Antimatter's plugins aim to inspire their users
-                to let their imagination fly.
+                The Antimatter Audio rebrand was crafted from the ground up to
+                build user trust and spark inspiration. From the sleek, orderly
+                header and footer areas to the bold, experimental central panel,
+                Antimatter's plugins aim to inspire creativity in all of their
+                users.
               </p>
             </div>
           </div>
