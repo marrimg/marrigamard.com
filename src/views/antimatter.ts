@@ -26,20 +26,34 @@ export default /* HTML */ `<div
             <div
               class="col-start-1 col-end-4 flex flex-col gap-1 sticky top-0 z-10"
             >
-              <a href="" class="text-2xl font-heading-main">Summary</a>
-              <a href="#design-direction" class="text-2xl font-heading-main"
+              <a
+                href=""
+                class="text-2xl font-heading-main hover:text-link-hover"
+                >Summary</a
+              >
+              <a
+                href="#design-direction"
+                class="text-2xl font-heading-main hover:text-link-hover"
                 >Design Direction</a
               >
-              <a href="#starting-point" class="text-2xl font-heading-main"
+              <a
+                href="#starting-point"
+                class="text-2xl font-heading-main hover:text-link-hover"
                 >Starting Point</a
               >
-              <a href="#discovery" class="text-2xl font-heading-main"
+              <a
+                href="#discovery"
+                class="text-2xl font-heading-main hover:text-link-hover"
                 >Discovery</a
               >
-              <a href="#product-mockups" class="text-2xl font-heading-main"
+              <a
+                href="#product-mockups"
+                class="text-2xl font-heading-main hover:text-link-hover"
                 >Mockups</a
               >
-              <a href="#takeaways" class="text-2xl font-heading-main"
+              <a
+                href="#takeaways"
+                class="text-2xl font-heading-main hover:text-link-hover"
                 >Takeaways</a
               >
             </div>
