@@ -1,10 +1,12 @@
 @import "tailwindcss";
 
 @theme {
-  --font-body: "PP Neue Montreal Book", sans-serif;
-  --font-heading: "PP Neue Montreal Medium", sans-serif;
+  --font-body: "PP Neue Montreal Thin", sans-serif;
+  --font-heading: "Unigeo Regular", sans-serif;
+  --font-heading-main: "Unigeo Semibold", sans-serif;
   --color-bg: #0a1a3a;
   --color-section-bg: #0b2352;
+  --color-popover: #071126;
   --color-overlay: #fff;
   --color-text-callout: #9753ff;
   --color-link: #8d7cef;
@@ -12,7 +14,9 @@
   --color-link-secondary: #628ee4;
   --color-link-secondary-hover: #9753ff;
   --color-text: #acacd0;
-  --color-text-header: #acacd0;
+  --color-border: #24304d;
+  --color-text-header: #bebee4;
+  --color-text-popover: #16171d;
   --color-antimatter-brand: #932eb8;
   --color-antimatter-bg: #16171d;
 }
@@ -69,4 +73,80 @@
   src:
     local("PP Neue Montreal Bold"),
     url("./assets/fonts/ppneuemontreal-bold.woff") format("woff");
+}
+
+/*  */
+
+@font-face {
+  font-family: "JetBrains Mono Thin";
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local("JetBrains Mono Thin"),
+    url("./assets/fonts/JetBrainsMono-Thin.woff") format("woff");
+}
+
+@font-face {
+  font-family: "JetBrains Mono Light";
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local("JetBrains Mono Light"),
+    url("./assets/fonts/JetBrainsMono-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "JetBrains Mono Medium";
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local("JetBrains Mono Medium"),
+    url("./assets/fonts/JetBrainsMono-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "JetBrains Mono Bold";
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local("JetBrains Mono Bold"),
+    url("./assets/fonts/JetBrainsMono-Bold.woff") format("woff");
+}
+
+/*  */
+
+@font-face {
+  font-family: "Unigeo Medium";
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local("Unigeo Medium"),
+    url("./assets/fonts/Unigeo64-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Unigeo Semibold";
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local("Unigeo Semibold"),
+    url("./assets/fonts/Unigeo64-Semibold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Unigeo Regular";
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local("Unigeo Regular"),
+    url("./assets/fonts/Unigeo128-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Unigeo Thin";
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local("Unigeo Thin"),
+    url("./assets/fonts/Unigeo128-Thin.woff2") format("woff2");
 }

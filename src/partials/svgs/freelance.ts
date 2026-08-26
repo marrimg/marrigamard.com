@@ -1,5 +1,5 @@
 export default //svg
-`<svg class="h-11 w-11 max-w-20 fill-link-secondary transition-colors duration-[1.25s] hover:fill-text-callout group-has-hover:fill-text-callout" id="Layer_2_copy_2" data-name="Layer 2 copy 2" xmlns="http://www.w3.org/2000/svg"
+`<svg class="h-11 w-11 max-w-20 fill-link transition-colors duration-[1.25s] hover:fill-text-callout group-has-hover:fill-text-callout" id="Layer_2_copy_2" data-name="Layer 2 copy 2" xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 923.96 912.52">
     <g>
         <path
