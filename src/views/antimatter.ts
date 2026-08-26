@@ -139,8 +139,14 @@ export default /* HTML */ `<div
               </div>
               <h3 class="mb-2 font-heading text-xl">Style Guide</h3>
               <div class="grid grid-cols-12 gap-6">
-                <p class="mb-2 col-start-1 col-span-12 lg:col-span-6">
-                  Based on this discovery process, I created a style guide for
+                <div class="col-span-12">
+                  <img
+                    src="https://marrigamard.com/antimatter-style-guide.webp"
+                    loading="lazy"
+                  />
+                </div>
+                <p class="mb-2 col-span-12">
+                  Based on the discovery process, I created a style guide for
                   the brand. I decided on ALTE DIN 1451 for the brand's typeface
                   to evoke the boxy, geometric feel of text on an old
                   greenscreen CRT monitor while remaining highly legible and
@@ -149,14 +155,6 @@ export default /* HTML */ `<div
                   went with a more modern-looking dark grey and magenta theme
                   for the main brand sections.
                 </p>
-                <div
-                  class="col-span-12 col-start-1 lg:col-start-7 lg:col-span-6"
-                >
-                  <img
-                    src="https://marrigamard.com/antimatter-style-guide.webp"
-                    loading="lazy"
-                  />
-                </div>
               </div>
 
               <h3 id="product-mockups" class="mb-2 font-heading text-xl">
