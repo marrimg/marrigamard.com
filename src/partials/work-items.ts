@@ -76,7 +76,7 @@ export default //html
         </ul>
       </div>
     </div>
-    <div class="border-b border-border pb-6 grid grid-cols-12 gap-4 items-center">
+    <div class="pb-6 grid grid-cols-12 gap-4 items-center">
       <div class="col-start-1 col-span-12 md:col-span-2 text-link-secondary">2012-2015</div>
       <div class="md:col-start-3 col-span-12 md:col-span-10 font-heading text-text-header">Postano</div>
       <div class="md:col-start-3 col-span-12 md:col-span-10">

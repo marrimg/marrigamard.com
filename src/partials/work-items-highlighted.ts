@@ -10,7 +10,7 @@ export default //html
       <h4 class="mb-2 pb-2 font-heading text-text-header">Antimatter Audio</h4>
       <div class="group work-item-primary-details grid grid-cols-12 gap-4 pointer-events-none">
         <a class="pointer-events-auto flex items-center col-span-2 aspect-square" href="./antimatter-details.html">
-          <div id="antimatter-details-link-logo" class="work-item-logo-container flex cursor-pointer items-center justify-center bg-section-bg p-4 aspect-square transition-colors duration-1000 hover:bg-antimatter-bg group-has-hover:bg-antimatter-bg w-full h-full">
+          <div id="antimatter-details-link-logo" class="work-item-logo-container flex cursor-pointer items-center rounded-md justify-center bg-section-bg p-4 aspect-square transition-colors duration-1000 hover:bg-antimatter-bg group-has-hover:bg-antimatter-bg w-full h-full">
             ${antimatterLogo}
           </div>
         </a>
@@ -32,7 +32,7 @@ export default //html
       <h4 class="mb-2 pb-2 font-heading text-text-header">Freelance projects</h4>
       <div class="group work-item-primary-details grid grid-cols-12 gap-4 pointer-events-none">
         <a class="pointer-events-auto flex items-center col-span-2 aspect-square" href="mailto:hello@marrigamard.com">
-          <div id="antimatter-details-link-logo" class="work-item-logo-container flex cursor-pointer items-center justify-center bg-section-bg p-4 aspect-square transition-colors duration-1000 hover:bg-antimatter-bg group-has-hover:bg-antimatter-bg w-full h-full">
+          <div id="antimatter-details-link-logo" class="work-item-logo-container flex cursor-pointer items-center justify-center rounded-md bg-section-bg p-4 aspect-square transition-colors duration-1000 hover:bg-antimatter-bg group-has-hover:bg-antimatter-bg w-full h-full">
             ${freelanceLogo}
           </div>
         </a>
