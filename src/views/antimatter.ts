@@ -88,7 +88,7 @@ export default /* HTML */ `<div
                     Starting point
                   </h2>
                   <img
-                    src="https://marrigamard.com/antimatter-modules.webp"
+                    src="https://assets.marrigamard.com/antimatter-modules.webp"
                     class="col-start-1 col-end-6"
                     loading="lazy"
                   />
@@ -107,11 +107,11 @@ export default /* HTML */ `<div
               <div class="col-start-6 col-end-12 space-y-4">
                 <div class="grid grid-cols-2 gap-2 col-span-12 pb-4">
                   <img
-                    src="https://marrigamard.com/antimatter-mood-board.webp"
+                    src="https://assets.marrigamard.com/antimatter-mood-board.webp"
                     loading="lazy"
                   />
                   <img
-                    src="https://marrigamard.com/mood-board-competetors.webp"
+                    src="https://assets.marrigamard.com/mood-board-competetors.webp"
                     class="w-full object-cover"
                   />
                 </div>
@@ -139,7 +139,7 @@ export default /* HTML */ `<div
               <div class="grid grid-cols-12 gap-6">
                 <div class="col-span-12">
                   <img
-                    src="https://marrigamard.com/antimatter-style-guide.webp"
+                    src="https://assets.marrigamard.com/antimatter-style-guide.webp"
                     loading="lazy"
                   />
                 </div>
@@ -159,7 +159,7 @@ export default /* HTML */ `<div
                 Product mockups
               </h3>
               <img
-                src="https://marrigamard.com/plugin-mockup.webp"
+                src="https://assets.marrigamard.com/plugin-mockup.webp"
                 class="w-full max-w-250"
                 loading="lazy"
               />
